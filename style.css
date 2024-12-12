@@ -1,5 +1,5 @@
 :root {
-    --header-background-color: #ffffff;
+    --header-background-color: #F9FAFB;
     --main-logo-backgroungimage: url(images/myanydaycash-logo.webp) no-repeat 0 0;
     --header-bottom-border: #c8c8c8;
     --rightArrow-hover: url("/personalloans/images/Arrow_Right_Purple.svg");
@@ -15,8 +15,8 @@
     --feactured-image-tablet: url(images/featured_tablet.svg);
     --feactured-image-mobile: url(images/featured_mobile.svg);
     --slick-slide-bg-image: url("images/css_sprites.svg") center no-repeat;
-    --background-color: #ffffff;
-    --back-backgroung-color: #ffffff;
+    --background-color: #F9FAFB;
+    --back-backgroung-color: #F9FAFB;
     --main-heading: #2a2a2b;
     --sub-heading-color: #19339a;
     --disclaimer-text-color: #000;
@@ -26,7 +26,7 @@
     --before-transform-prop: scale(1.105, 1.115);
     --input-transform-prop: none;
     --nextbtn-disable-bg-color: #e8e8e9;
-    --nextbtn-disable-text-color: #ffffff;
+    --nextbtn-disable-text-color: #F9FAFB;
     --nextbtn-bg-position: -153px -143px;
     --nextbtn-transform-prop: none;
     --loader-color: #19339a;
@@ -72,12 +72,15 @@
     --backbtn-bg-position-mob-hover: -89px -164px
 }
 
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap);.trustpilot {
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.trustpilot {
     background-image: var(--trustpilot-bg-image);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center
 }
+
 
 #brandedInsurelo,#insurelo,.gtlAnchor {
     background: var(--main-logo-backgroungimage)
@@ -191,7 +194,7 @@
     pointer-events: none;
     transition: 150ms ease-in-out;
     border: 1px solid #c7c7ce;
-    border-radius: 2px;
+    border-radius: 17px;
     box-shadow: var(--box-shadow)
 }
 
@@ -359,5 +362,15 @@
 
 
 span{
+    /* color: #646567; */
+    font-weight: 500 !important;
+    color: #000000;
+}
+svg{
     color: #0075b7;
 }
+
+#progress-circle {
+    transition: transform 0.3s ease-in-out;
+}
+

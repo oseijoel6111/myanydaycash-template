@@ -25,78 +25,19 @@
         <div id="header-wrapper">
             <div id="header-container">
                 <div id="logo-section">
-                    <img class="hide" id="cobranded-logo" />
-                    <span class="hide" id="cobranded-VerticalLine"></span>
                     <div class="cobranded_header_container">
                         <div class="main-logo" id="logo" target="_blank" href="https://myanydaycash.com"></div>
-                        <div class="hide" id="cobranded_header_text">
-                            Thanks for coming from <span id="cobranded_themeheader"></span>
-                        </div>
                     </div>
-                    <div class="hide" id="client_logo_cont">
-                        <div class="main-logo" id="client-logo" target="_blank"></div>
-                    </div>
+                    <div class=adv-disclosure id=adv-disclosure>Advertiser Disclosure</div>
                 </div>
             </div>
-        </div>
-
-        <!-- Triple section -->
-        <div class="triple_cobranding hide" id="triple_cobranding">
-            <img class="triple_clientkey" id="triple_clientkey" />
-            <h1 class="headingone">
-                Explore Personal Loans from <span class="co_lenderName"></span>
-                and Other Top Lenders
-            </h1>
-            <h2 class="headingtwo extraMargin">
-                Get personalized offers with no impact on your credit - fast and FREE!
-            </h2>
-        </div>
-        <div class="overlay disclosure_close hide" id="overlay"></div>
-
-        <!-- Disclaimer -->
-        <div class="hide" id="tcpaDisclaimer">
-            <div class="tcpa_content">
-                <span class="disclosure_close">X</span>
-                Advertiser Disclosure*. The financial products and services on this site
-                are from advertisers from which AmOne receives compensation.
-                Compensation may be based upon whether you click on certain links on
-                this site or buy products or services from those advertisers. We do not
-                receive compensation from consumers. The placement of advertisements on
-                this site are based in part upon the compensation AmOne has or expects
-                to receive from those advertisers. Placement of advertisements does not
-                reflect our recommendation of any advertisers products or services.
-                Please consult a financial services professional before making any
-                financial decisions. Our advertisers do not include all the financial
-                products and service providers available in the marketplace.<br />
-                <br />
-                Loan availability, rates, APRs (Annual Percentage Rate), and other terms
-                vary by advertiser and borrower attributes, including borrower location.
-                Lenders have a range of available APRs; only borrowers with excellent
-                credit will qualify for the lower rates. As of 01/11/2024, our
-                advertisers were offering loans to some consumers for as little as a
-                <span class="apr_value">6.40%</span> APR on a three-year
-                <span class="DisclosureLoanAmount">$100,000</span> loan.<br />
-                <br />
-                We do not provide financial products or services. Rather, AmOne provides
-                administrative and marketplace services by attempting to connect
-                consumers with service providers offering products and services such as
-                debt settlement and personal loans. We do not take applications or make
-                credit decisions. We may not be able to match you with any of our
-                advertisers. Credit and other decisions and terms are determined by our
-                advertisers based upon the consumer's submission of an application to
-                the advertiser, which may obtain other information about the consumer
-                from third parties. Approval for financial products and services by an
-                advertiser is not guaranteed.<br />
-                <span class="disclosure_close" id="disclosure_close_bottom">Close</span>
-            </div>
-            <input id="disclosureGetValueFromBlurb" type="hidden" value="6.40%_$100,000" />
         </div>
 
         <!-- Main -->
         <main>
             <!-- Wrapper -->
             <div id="wrapper">
-                <div class="progress-wheel" id="progress-wheel">
+                <div class="progress-wheel" style="margin-top: 25px;" id="progress-wheel">
                     <div class="progress-circle" id="progress-circle">
                         <div class="pcc-percents-wrapper">
                             <span id="percent-span">7</span>
@@ -112,7 +53,7 @@
                 <a class="back_btn showBack m-hide leahFlow" style="display: none;" id="back_btn" value="clicked">&lt;Back</a>
                 <div class="hide" id="progress_bar"></div>
                 <article class="middle" id="main_container">
-                    <form action="confirmation.html" autocomplete="off" datap-ajax="false" id="prequals" name="prequals">
+                    <form action="" autocomplete="off" datap-ajax="false" id="prequals" name="prequals">
                         <div class="white_step_container hide" id="loader-image">
                             <h1 class="loading-heading">
                                 Welcome! Let's brighten your financial future...
@@ -175,86 +116,146 @@
                     <div class=question_wrapper id=LoanPurpose_wrapper>
                         <ul class="LoanPurpose_list list_question 1" id=LoanPurpose_list>
                             <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
-                                <span class=loanpurpose_icon></span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-car-front"><path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8"/><path d="M7 14h.01"/><path d="M17 14h.01"/><rect width="18" height="8" x="3" y="10" rx="2"/><path d="M5 18v2"/><path d="M19 18v2"/></svg>
+                                </span>
                                 <span class="loanpurpose_text Auto_text">Auto Expenses</span>
                             </li>
-                            <li data-value=Baby/Adoption class=loanpurpose_li value=babyadoption id=loanpurpose_babyadoption>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Baby/Adoption_text">Baby/Adoption Costs</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coins"><circle cx="8" cy="8" r="6"/><path d="M18.09 10.37A6 6 0 1 1 10.34 18"/><path d="M7 6h1v4"/><path d="m16.71 13.88.7.71-2.82 2.82"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Debt Consolidation</span>
                             </li>
-                            <li data-value=Boat class=loanpurpose_li  id=loanpurpose_boat>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Boat_text">Boat Expenses</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text"> Educational Expenses</span>
                             </li>
-                            <li data-value=Business class=loanpurpose_li id=loanpurpose_business>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Business_text">Business Expenses</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Apply New Credit Card</span>
                             </li>
-                            <li data-value="Credit Card Consolidation" class=loanpurpose_li id=loanpurpose_creditcardconsolidation>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Credit Card Consolidation_text">Credit Card Debt</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building-2"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Business</span>
                             </li>
-                            <li data-value="Debt Consolidation" class=loanpurpose_li id=loanpurpose_debtconsolidation>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Debt Consolidation_text">Debt Consolidation</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wallet"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Payday Relief</span>
                             </li>
-                            <li data-value=Emergency class=loanpurpose_li  id=loanpurpose_emergency>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Emergency_text">Emergency Expenses</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Home Improvement</span>
                             </li>
-                            <li data-value="Home Improvement" class=loanpurpose_li id=loanpurpose_homeimprovement>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Home Improvement_text">Home Renovation Costs</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-alert"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Emergency Expenses</span>
                             </li>
-                            <li data-value="Household Expense" class=loanpurpose_li id=loanpurpose_householdexpense>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Household Expense_text">Household Expenses</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-receipt"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 17.5v-11"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Everyday Bills</span>
                             </li>
-                            <li data-value="Major Purchase" class=loanpurpose_li  id=loanpurpose_majorpurchase>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Major Purchase_text">Major Purchase</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-receipt"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 17.5v-11"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Pet Expenses</span>
                             </li>
-                            <li data-value=Medical/Dental class=loanpurpose_li  id=loanpurpose_medicaldental>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Medical/Dental_text">Medical/Dental Costs</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-thumbs-down"><path d="M17 14V2"/><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Credit improvement</span>
                             </li>
-                            <li data-value=Moving/Relocation class=loanpurpose_li  id=loanpurpose_movingrelocation>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Moving/Relocation_text">Moving &amp;Relocation Costs</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Funeral Expenses</span>
                             </li>
-                            <li data-value=Motorcycle class=loanpurpose_li id=loanpurpose_motorcycle>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Motorcycle_text">Motorcycle Expenses</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Major Purchase</span>
                             </li>
-                            <li data-value=RV class=loanpurpose_li id=loanpurpose_rv>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text RV_text">RV Expenses</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hammer"><path d="m15 12-8.373 8.373a1 1 0 1 1-3-3L12 9"/><path d="m18 15 4-4"/><path d="m21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172V7l-2.26-2.26a6 6 0 0 0-4.202-1.756L9 2.96l.92.82A6.18 6.18 0 0 1 12 8.4V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Home Renovation</span>
                             </li>
-                            <li data-value="Special Event Expenses" class=loanpurpose_li id=loanpurpose_specialeventexpenses>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Special Event Expenses_text">Special Event Expenses</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-dollar-sign"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Pay Off Credit Cards</span>
                             </li>
-                            <li data-value=Taxes class=loanpurpose_li id=loanpurpose_taxes>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Taxes_text">Taxes</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plane"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Vacation</span>
                             </li>
-                            <li data-value=Vacation class=loanpurpose_li id=loanpurpose_vacation>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Vacation_text">Vacation Costs</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-church"><path d="M10 9h4"/><path d="M12 7v5"/><path d="M14 22v-4a2 2 0 0 0-4 0v4"/><path d="M18 22V5.618a1 1 0 0 0-.553-.894l-4.553-2.277a2 2 0 0 0-1.788 0L6.553 4.724A1 1 0 0 0 6 5.618V22"/><path d="m18 7 3.447 1.724a1 1 0 0 1 .553.894V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9.618a1 1 0 0 1 .553-.894L6 7"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Wedding Expenses</span>
                             </li>
-                            <li data-value=Personal class=loanpurpose_li id=loanpurpose_personal>
-                                <span class=loanpurpose_icon></span>
-                                <span class="loanpurpose_text Personal_text">Other</span>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-diagonal"><path d="M11 19H5v-6"/><path d="M13 5h6v6"/><path d="M19 5 5 19"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Moving and Relocation</span>
                             </li>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-stethoscope"><path d="M11 2v2"/><path d="M5 2v2"/><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Medical Expenses</span>
+                            </li>
+
+                            <li data-value=Auto class=loanpurpose_li id=loanpurpose_auto>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-help"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+                                </span>
+                                <span class="loanpurpose_text Auto_text">Other</span>
+                            </li>
+
                         </ul>
-                        <input id=LoanPurpose name=LoanPurpose class="hide validate liInput">
-                        <div class=validation-msgs>
-                            <span class=hide data-rule=valueMissing>This field is required.</span>
-                        </div>
-                        <div class="tri_clientkeydiv hide" id=tri_clientkeydiv>
-                            <span class=tri_cobrand_text>In partnership with</span>
-                            <img class=tri_clientkey id=tri_clientkey>
-                        </div>
                     </div>
                 </div>
                 <!-- Step 2 -->
@@ -325,14 +326,18 @@
 
 
                 </div>
-                </div>
+            </div>
 
         </main>
 
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const backBtn = document.getElementById('back_btn');
+        const backBtn = document.getElementById('back_btn');
+        const progressSpan = document.getElementById('percent-span');
+        const steps = document.querySelectorAll('.swiper-slide');
+        let currentStep = 0;
+
         const swiper = new Swiper('.swiper-container', {
             direction: 'horizontal',
             loop: false,  
@@ -342,6 +347,8 @@
         },
         on: {
             slideChange: function () {
+                currentStep = this.activeIndex;
+                updateProgress();
                 // Check if the active slide is the first slide
                 if (this.activeIndex === 0) {
                     backBtn.style.display = 'none'; // Hide the back button
@@ -365,6 +372,14 @@
         swiper.slidePrev(); // Move to the previous slide
     });
 
+    // Function to update progress percentage
+    function updateProgress() {
+        const totalSteps = steps.length;
+        const progressPercentage = Math.floor(((currentStep + 1) / totalSteps) * 100);
+        progressSpan.textContent = progressPercentage;
+    }
+
+    updateProgress();
 });
 
         </script>
